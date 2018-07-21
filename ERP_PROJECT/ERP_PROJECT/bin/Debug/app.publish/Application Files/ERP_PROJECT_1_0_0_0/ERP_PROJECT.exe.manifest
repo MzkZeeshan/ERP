@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ERP_PROJECT.exe" version="1.0.0.0" publicKeyToken="9c6331f1fc1625ca" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ERP_PROJECT" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ERP_PROJECT.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ERP_PROJECT.exe" size="193536">
+      <assemblyIdentity name="ERP_PROJECT" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>paH9iHZ8H/zZiOf8MZa71oKgy1SvEsd/lpmzx/DddR8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ERP_PROJECT.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=A\MuhammadZeeshan" issuerKeyHash="742c95649e3adfdecb48a50eafe48b591103b824" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>DaqFJpHyti93BJeI9Sv48Ur1PYjr/44/Co2aiK+exVE=</DigestValue></Reference></SignedInfo><SignatureValue>e9OUz0iNV28KFZEZRCc66kglEG11l3hKlCv2pZ2mC0Is/Pyt3yKgjWFhGKpoCchwUNdwfwgl3pcWYIVj3XiRuo2u+bUn0CASK6SCpN+1nUjtFH2AQS8jL+YODxtsX0FmgissWIucHuy19wm2uCwdGEH/6hZVbVQ/TJ77DAva6j8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tfxqmOtbNRN3jfXfVriXxXeeVDIXqHdgHfjW4PyZ4m+hVsICIQt00D20fC2bwzMjdk2i00d1otfBuj5Gm+CdZdHxt5KkhtlcWdtZ07BmC9/VOkLtlOWEEjSkmOSoWC/Rql7jHgXmUAOFcU7/xgevfBZDLhyZ1MaZVm5GpZCu98s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="51c59eaf889a8d0a3f8effeb883df54af1f82bf5889704772fb6f2912685aa0d" Description="" Url=""><as:assemblyIdentity name="ERP_PROJECT.exe" version="1.0.0.0" publicKeyToken="9c6331f1fc1625ca" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=A\MuhammadZeeshan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>G+9W0EATQ/l4o8d0AvT8tpIsFMmDwPgBV1Tk/tCccO8=</DigestValue></Reference></SignedInfo><SignatureValue>orYDnPgDRKupO1qS1GPIcf/PJiR1u7ybKT28PEKrp4weT1bPrDOKKJRVYMr0qUGeymS/JZ22WD9iKEjG3Q6PRFMoGHiPPN/4Gbl8s6fB3dM4f0IyOTp2ZV54QvZqY7hNBTTy10V2dWNEwjLJtc+btDzL+2y3W+hMWXB4sm1CHKs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tfxqmOtbNRN3jfXfVriXxXeeVDIXqHdgHfjW4PyZ4m+hVsICIQt00D20fC2bwzMjdk2i00d1otfBuj5Gm+CdZdHxt5KkhtlcWdtZ07BmC9/VOkLtlOWEEjSkmOSoWC/Rql7jHgXmUAOFcU7/xgevfBZDLhyZ1MaZVm5GpZCu98s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQbvqvu6e6/ZtFV+vMQx+IvzANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIAQQBcAE0AdQBoAGEAbQBtAGEAZABaAGUAZQBzAGgAYQBuMB4XDTE4MDcxNzIyMDI1N1oXDTE5MDcxODA0MDI1N1owLTErMCkGA1UEAx4iAEEAXABNAHUAaABhAG0AbQBhAGQAWgBlAGUAcwBoAGEAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAtfxqmOtbNRN3jfXfVriXxXeeVDIXqHdgHfjW4PyZ4m+hVsICIQt00D20fC2bwzMjdk2i00d1otfBuj5Gm+CdZdHxt5KkhtlcWdtZ07BmC9/VOkLtlOWEEjSkmOSoWC/Rql7jHgXmUAOFcU7/xgevfBZDLhyZ1MaZVm5GpZCu98sCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBc5eW1AzNgtRrkzxRAUQBdUPP4akL8CTzkGAYVB+UwTF6GN8Vg6AKMNc0kK0/WK/nHFLKRgYvz94poX9Urqxt2EL2J935O/lWYYUUL3RzrKDtFq8sZegC5CoNXWbswWRtLQoIh3tyWMyuxh5lVJTqCC/puHxNVvHQpiXJcEaUQkg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
